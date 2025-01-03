@@ -1,4 +1,4 @@
-# ZCommerce QA Automation
+# ZCommerce QA Automation (Distributed System Testing)
 
 ## Overview
 
