@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-06T17:19:23 IST" name="ZCommerce Suite" finished-at="2024-03-06T17:19:35 IST" duration-ms="11987">
+    <groups>
+    </groups>
+    <test started-at="2024-03-06T17:19:23 IST" name="Order Service API Tests" finished-at="2024-03-06T17:19:33 IST" duration-ms="9340">
+      <class name="com.sdet.zorder.API_Tests.TestCase01">
+        <test-method signature="addValidItemToCart()[pri:0, instance:com.sdet.zorder.API_Tests.TestCase01@335c0a73]" started-at="2024-03-06T17:19:23 IST" name="addValidItemToCart" finished-at="2024-03-06T17:19:28 IST" duration-ms="4836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addValidItemToCart -->
+        <test-method signature="addInValidItemToCart()[pri:1, instance:com.sdet.zorder.API_Tests.TestCase01@335c0a73]" started-at="2024-03-06T17:19:28 IST" name="addInValidItemToCart" finished-at="2024-03-06T17:19:31 IST" duration-ms="3297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addInValidItemToCart -->
+      </class> <!-- com.sdet.zorder.API_Tests.TestCase01 -->
+      <class name="com.sdet.zorder.API_Tests.TestCase02">
+        <test-method signature="addAnOrder()[pri:2, instance:com.sdet.zorder.API_Tests.TestCase02@1763c0a0]" started-at="2024-03-06T17:19:31 IST" name="addAnOrder" finished-at="2024-03-06T17:19:32 IST" duration-ms="930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAnOrder -->
+        <test-method signature="checkOrder()[pri:0, instance:com.sdet.zorder.API_Tests.TestCase02@1763c0a0]" started-at="2024-03-06T17:19:32 IST" name="checkOrder" finished-at="2024-03-06T17:19:33 IST" depends-on-methods="com.sdet.zorder.API_Tests.TestCase02.addAnOrder" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOrder -->
+      </class> <!-- com.sdet.zorder.API_Tests.TestCase02 -->
+    </test> <!-- Order Service API Tests -->
+    <test started-at="2024-03-06T17:19:33 IST" name="Order Service DB Tests" finished-at="2024-03-06T17:19:35 IST" duration-ms="2624">
+      <class name="com.sdet.zorder.DB_Tests.TestCase04">
+        <test-method signature="testOrderInsertAndCascadeDelete()[pri:0, instance:com.sdet.zorder.DB_Tests.TestCase04@39a736c6]" started-at="2024-03-06T17:19:34 IST" name="testOrderInsertAndCascadeDelete" finished-at="2024-03-06T17:19:35 IST" duration-ms="1346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOrderInsertAndCascadeDelete -->
+      </class> <!-- com.sdet.zorder.DB_Tests.TestCase04 -->
+      <class name="com.sdet.zorder.DB_Tests.TestCase03">
+        <test-method signature="checkDbForOrder()[pri:0, instance:com.sdet.zorder.DB_Tests.TestCase03@4365c1b7]" started-at="2024-03-06T17:19:33 IST" name="checkDbForOrder" finished-at="2024-03-06T17:19:33 IST" duration-ms="812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDbForOrder -->
+        <test-method signature="testTableCount()[pri:0, instance:com.sdet.zorder.DB_Tests.TestCase03@4365c1b7]" started-at="2024-03-06T17:19:33 IST" name="testTableCount" finished-at="2024-03-06T17:19:34 IST" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTableCount -->
+      </class> <!-- com.sdet.zorder.DB_Tests.TestCase03 -->
+    </test> <!-- Order Service DB Tests -->
+  </suite> <!-- ZCommerce Suite -->
+</testng-results>

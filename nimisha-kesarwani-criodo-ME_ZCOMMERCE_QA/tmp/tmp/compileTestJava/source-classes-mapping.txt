@@ -1,0 +1,8 @@
+com/sdet/zorder/API_Tests/TestCase01.java
+ com.sdet.zorder.API_Tests.TestCase01
+com/sdet/zorder/DB_Tests/TestCase04.java
+ com.sdet.zorder.DB_Tests.TestCase04
+com/sdet/zorder/API_Tests/TestCase02.java
+ com.sdet.zorder.API_Tests.TestCase02
+com/sdet/zorder/DB_Tests/TestCase03.java
+ com.sdet.zorder.DB_Tests.TestCase03

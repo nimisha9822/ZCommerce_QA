@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ZCommerce Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Order Service API Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.sdet.zorder.API_Tests.TestCase02">
+        <methods>
+          <include name="checkOrder"/>
+          <include name="addAnOrder"/>
+        </methods>
+      </class> <!-- com.sdet.zorder.API_Tests.TestCase02 -->
+      <class name="com.sdet.zorder.API_Tests.TestCase01">
+        <methods>
+          <include name="addInValidItemToCart"/>
+          <include name="addValidItemToCart"/>
+        </methods>
+      </class> <!-- com.sdet.zorder.API_Tests.TestCase01 -->
+    </classes>
+  </test> <!-- Order Service API Tests(failed) -->
+  <test thread-count="5" name="Order Service DB Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.sdet.zorder.DB_Tests.TestCase03">
+        <methods>
+          <include name="checkDbForOrder"/>
+          <include name="testTableCount"/>
+        </methods>
+      </class> <!-- com.sdet.zorder.DB_Tests.TestCase03 -->
+      <class name="com.sdet.zorder.DB_Tests.TestCase04">
+        <methods>
+          <include name="testOrderInsertAndCascadeDelete"/>
+        </methods>
+      </class> <!-- com.sdet.zorder.DB_Tests.TestCase04 -->
+    </classes>
+  </test> <!-- Order Service DB Tests(failed) -->
+</suite> <!-- Failed suite [ZCommerce Suite] -->
